@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    width: 520px;
+    margin: auto;
+    grid-template-rows: 140px 140px 140px 140px;
+    grid-template-columns: 140px 140px 140px 140px;
+    grid-gap: 5px;
+}
+
+.square {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    background-color: cornsilk;
+}
+
+.mole {
+    background-image: url("mole.png");
+    background-size: cover;
+}
